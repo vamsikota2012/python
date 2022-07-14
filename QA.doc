@@ -1,0 +1,11 @@
+What is virtual environment?
+
+A virtual environment is a private copy of the Python interpreter onto which you can install packages privately, 
+without affecting the global Python interpreter installed in the system.
+
+Virtual environments are very useful because they prevent package clutter and version conflicts in the system’s Python interpreter. 
+Creating a virtual environment for each application ensures that applications have access to only the packages that they use,
+while the global interpreter remains neat and clean and serves only as a source from which more virtual environments can be created. 
+As an added benefit, virtual environments don’t require administrator rights.
+
+
