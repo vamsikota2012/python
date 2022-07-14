@@ -8,4 +8,12 @@ Creating a virtual environment for each application ensures that applications ha
 while the global interpreter remains neat and clean and serves only as a source from which more virtual environments can be created. 
 As an added benefit, virtual environments don’t require administrator rights.
 
+command to create virtual environment.
+python3 -m venv c:/users/sravanthikota1/my_env
+activate virtual environment.
+source my_env/bin/activate
+
+When a virtual environment is activated, the location of its Python interpreter is added to the PATH, 
+but this change is not permanent; it affects only your current command session.
+When you are done working with the virtual environment and want to return to the global Python interpreter, type deactivate at the command prompt.
 
